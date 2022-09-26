@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akanksha Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <style>
+/*css Reset*/
+
+        body{
+            font-family: 'Baloo 2', cursive;
+            margin: 0px;    
+            padding: 0px;
+            background: url('img/2.jpg');
+            background-size: cover;
+    }
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 38px;
+    top: 15px;
+}
+.mid{
+
+    display: block;
+    width: 50%;
+    margin:20px auto;
+    
+}
+.right{
+    
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 36px;
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+
+}
+.navbar li a{
+    color: rgb(52, 100, 100);
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+ text-decoration: underline;
+ color: rgba(18, 93, 116, 0.685);
+}
+.left img{
+    width: 136px;
+
+}
+.left div{
+    text-align: center;
+    line-height: 18px;
+    font-size: 24pxpx;
+}
+.btn{
+    font-family: 'Baloo 2', cursive;
+    margin: 0px 9px;
+    color: rgb(22, 116, 145);
+    padding: 3px 11px;
+    border: 2px solid rgb(138, 164, 214);
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(182, 194, 211);
+}
+.container{
+    border: 2px solid black;
+    margin: 130px 50px;
+    width: 30%;
+    padding: 22px 27px;
+    border-radius: 8px;
+}
+
+
+
+.form-group input{
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    display: block;
+    width: 262px;
+    margin: 8px auto;
+    padding: 11px 91px;
+    border: 2px solid black;
+    font-size: 26px;
+    
+    border-radius: 30px;
+}
+
+
+
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width:100px ;
+    margin: auto;
+}
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="img/Dumb 1.jpg" alt="">
+            <div>Akanksha Fitness</div>
+
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Fitness calculator</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+
+
+        </div>
+        <!-- left for button  -->
+        <div class="right">
+<button class="btn">Call us Now</button>
+<button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Ghaziabad now</h1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+</html>
